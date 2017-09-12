@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+<mapper namespace="emp">
+
+	<select id="all" resultType="mybatis.vo.EmpVO">
+		SELECT * FROM employees
+	</select>
+
+	<select id="search" resultType="mybatis.vo.EmpVO">
+		SELECT * FROM employees
+		<if test="searchType != null">
+			<where>
+				<choose>
+					<when test="searchType == 1">
+						first_name LIKE '%'||#{searchValue}||'%'
+					</when>
+					<when test="searchType == 2">
+						department_id = #{searchValue}
+					</when>
+					<when test="searchType == 3">
+						job_id LIKE '%'||#{searchValue}||'%'
+					</when>
+				</choose>
+			</where>
+		</if>
+	</select>
+</mapper>  

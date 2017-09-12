@@ -54,26 +54,30 @@
 		<div class="navbar navbar-inverse navbar-fixed-top" role="banner">
 			<div class="container">
 				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse"
-						data-target=".navbar-collapse">
-						<span class="sr-only">Toggle navigation</span> <span
-							class="icon-bar"></span> <span class="icon-bar"></span> <span
-							class="icon-bar"></span>
+				
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span> 
+						<span class="icon-bar"></span> 
+						<span class="icon-bar"></span> 
+						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="index.html"><h1>
-							<img style="transform: rotate(270deg);"
-								src="http://st.mycdn.me/res/i/ok_logo.png" height="40%"
-								width="40%" alt="logo">
-						</h1></a>
+					
+					<a class="navbar-brand" href="index.html">
+						<h1>
+								<img style="transform: rotate(270deg);" src="http://st.mycdn.me/res/i/ok_logo.png" 
+									height="40%" width="40%" alt="logo">
+						</h1>
+					</a>
+					
 				</div>
 				<div class="collapse navbar-collapse">
 					<ul class="nav navbar-nav navbar-right">
-						<li class="scroll active"><a href="#navigation">로그인</a></li>
+						<li class="scroll"><a href="#navigation">로그인</a></li>
 						<li class="scroll"><a href="#about-us">회원가입</a></li>
 						<li class="scroll"><a href="#services">마이페이지</a></li>
 						<li class="scroll"><a href="#our-team">장바구니</a></li>
 						<li class="scroll"><a href="#portfolio">고객센터</a></li>
-
+						<li class="scroll"><a href="member.inc">테스트</a></li>
 					</ul>
 				</div>
 			</div>
@@ -88,8 +92,7 @@
 	<table>
 		<tbody>
 			<tr>
-				<td
-					style="width: 700px; , height: 200px; , background-image: url(http://st.mycdn.me/res/i/ok_logo.png)">
+				<td style="width: 700px; , height: 200px; , background-image: url(http://st.mycdn.me/res/i/ok_logo.png)">
 
 				</td>
 				<td style="width: 700px; , height: 200px;">
@@ -105,8 +108,7 @@
 							</ol>
 							<!--/.carousel-indicators-->
 							<div class="carousel-inner">
-								<div class="item active"
-									style="background-image: url(http://static1.e-himart.co.kr/contents/content/display/cornerContents/imageBanner/301/imageBanner_1504173536237.jpg)">
+								<div class="item active" style="background-image: url(http://static1.e-himart.co.kr/contents/content/display/cornerContents/imageBanner/301/imageBanner_1504173536237.jpg)">
 									<div class="carousel-caption">
 										<div>
 											<h2 class="heading animated bounceInDown">'Himu' Onepage
@@ -118,6 +120,7 @@
 										</div>
 									</div>
 								</div>
+								
 								<div class="item"
 									style="background-image: url(resources/images/slider/slide2.jpg)">
 									<div class="carousel-caption">
@@ -131,6 +134,7 @@
 										</div>
 									</div>
 								</div>
+								
 								<div class="item"
 									style="background-image: url(resources/images/slider/slide1.jpg)">
 									<div class="carousel-caption">
@@ -215,7 +219,8 @@
 						sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
 						aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
 						exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
-						commodo consequat.</p>
+						commodo consequat.
+					</p>
 				</div>
 			</div>
 			<div class="row">
