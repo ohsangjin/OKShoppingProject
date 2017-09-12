@@ -263,20 +263,18 @@ h1, h2, h3, h4, h5, h6 {
 
 #navigation .navbar-nav.navbar-right li {
 	padding: 0 1px;
-	background-color: #000000;
 }
 
 #navigation .navbar-nav.navbar-right {
-	margin-top:28px;
-	background-color: #000000;
+	margin-top:28px
 }
 
 #navigation .navbar-nav.navbar-right li a {
-	color: #000000;
-	font-family: 'Roboto',sans-serif;
+	color: #43484E;
+	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 	padding: 0;
-	text-transform: none;
+	text-transform: uppercase;
 	-webkit-transition: all .9s ease 0s;
 	-moz-transition: all .9s ease 0s;
 	-o-transition: all .9s ease 0s;
@@ -287,8 +285,8 @@ h1, h2, h3, h4, h5, h6 {
 #navigation .navbar-inverse .navbar-nav  .active  a,  
 #navigation .navbar-inverse .navbar-nav  .active  a:focus, 
 #navigation .navbar-nav.navbar-right li a:hover {
-	color: #fff;
-	background-color: #000000;
+	color: #fc7700;
+	background-color: #fc7700;
 }
 
 
@@ -348,21 +346,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #main-carousel .carousel-caption {
-	display: table;
+	display: inline-block;
 	height: 100%;
 	width: 100%;
-	min-height: 100%;
-	left: 0;
-	top: 0;
-	z-index: 11;
+
+
+
 }
 
 #main-carousel .carousel-caption > div{
     vertical-align: middle;
     display: table-cell;
+    
 }
 
 #main-carousel .carousel-inner h2 {
+
 	color: #f6f6f6;
 	display: inline-block;
 	font-family: roboto;
